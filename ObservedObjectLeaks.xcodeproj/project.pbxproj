@@ -66,8 +66,8 @@
 			isa = PBXGroup;
 			children = (
 				35D57E102D54790300430AAC /* Scenes */,
-				35D57E0E2D54790300430AAC /* Logging */,
 				35D57E192D54790300430AAC /* Models */,
+				35D57E0E2D54790300430AAC /* Logging */,
 				35D57E1C2D54790300430AAC /* ObservableLeaksApp.swift */,
 				35D57E1B2D54790300430AAC /* ContentView.swift */,
 				35D57E042D54789700430AAC /* Assets.xcassets */,
@@ -95,8 +95,8 @@
 		35D57E102D54790300430AAC /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
-				35D57E112D54790300430AAC /* PhotosListScene */,
 				35D57E172D54790300430AAC /* HomeScene */,
+				35D57E112D54790300430AAC /* PhotosListScene */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -104,8 +104,8 @@
 		35D57E112D54790300430AAC /* PhotosListScene */ = {
 			isa = PBXGroup;
 			children = (
-				35D57E122D54790300430AAC /* PhotosListViewModel.swift */,
 				35D57E132D54790300430AAC /* CellView */,
+				35D57E122D54790300430AAC /* PhotosListViewModel.swift */,
 				35D57E162D54790300430AAC /* PhotosListView.swift */,
 			);
 			path = PhotosListScene;

@@ -30,9 +30,6 @@ struct PhotoCell: View {
             .onAppear {
                 loader.loadImage(url: photo.download_url)
             }
-            .onDisappear {
-                loader.imageData = nil
-            }
         }
     }
 }
